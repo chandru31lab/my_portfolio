@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Smart Home Automation — Freelance IoT Solutions by Ramachandru J">
+  <title>Smart Home Automation | Ramachandru J</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../project-detail.css">
+</head>
+<body>
+  <canvas id="circuit-canvas"></canvas>
+  <nav id="main-nav" class="navbar scrolled">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo"><span class="logo-bracket">&lt;</span>Ramachandru<span class="logo-bracket">/&gt;</span></a>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="../index.html#projects" class="nav-link">← All Projects</a></li>
+        <li><a href="../index.html#contact" class="nav-link nav-link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="project-detail-hero">
+    <div class="project-hero-bg"><img src="smart-home.png" alt="Smart Home Automation"></div>
+    <div class="project-hero-overlay"></div>
+    <div class="project-hero-content">
+      <a href="../index.html#projects" class="back-btn"><span class="back-arrow">←</span> Back to Projects</a>
+      <div class="project-detail-badges">
+        <span class="detail-badge detail-badge--status">● Active / Freelance</span>
+        <span class="detail-badge detail-badge--category">IoT / Automation</span>
+      </div>
+      <h1 class="project-detail-title">Smart Home Automation</h1>
+      <p class="project-detail-subtitle">
+        End-to-end home and industrial automation solutions — custom firmware, sensor integration, 
+        and cloud-connected control systems for residential and commercial clients.
+      </p>
+    </div>
+  </section>
+
+  <div class="project-detail-body">
+    <div class="project-detail-grid">
+      <div class="project-main">
+        <h2><span class="section-icon">📋</span> Project Overview</h2>
+        <p>
+          As a freelance embedded systems developer, I design and deliver complete home automation solutions 
+          tailored to each client's needs. From smart lighting and climate control to security systems and 
+          voice-activated devices, each project is built from the ground up with custom firmware and hardware.
+        </p>
+        <p>
+          The solutions leverage ESP32 microcontrollers, cloud platforms, and mobile apps to provide 
+          seamless remote control and automation capabilities. Each system is designed for reliability, 
+          security, and easy expansion.
+        </p>
+
+        <div class="section-divider"></div>
+
+        <h2><span class="section-icon">⚡</span> Solutions Offered</h2>
+        <ul>
+          <li><strong>Smart Lighting Control</strong> — Automated and remote-controlled lighting with dimming, scheduling, and scene management</li>
+          <li><strong>Climate Automation</strong> — Temperature and humidity-based HVAC control with energy optimization</li>
+          <li><strong>Security Integration</strong> — PIR sensors, door/window sensors, and camera integration with alerts</li>
+          <li><strong>Voice Control</strong> — Integration with Google Assistant and Amazon Alexa for voice-activated control</li>
+          <li><strong>Energy Monitoring</strong> — Real-time power consumption tracking with usage analytics</li>
+          <li><strong>Custom Dashboards</strong> — Web and mobile interfaces for remote monitoring and control</li>
+          <li><strong>Industrial Automation</strong> — PLC alternatives using microcontrollers for small-scale industrial applications</li>
+        </ul>
+
+        <div class="section-divider"></div>
+
+        <h2><span class="section-icon">🔧</span> System Architecture</h2>
+        <div class="architecture-diagram">
+          <div class="arch-flow">
+            <div class="arch-node"><div class="arch-node-icon">📱</div><div class="arch-node-label">Mobile App</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">☁️</div><div class="arch-node-label">Cloud / MQTT</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">📡</div><div class="arch-node-label">ESP32 Hub</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">🔌</div><div class="arch-node-label">Actuators</div></div>
+          </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="project-gallery">
+          <h2><span class="section-icon">📸</span> Project Gallery</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item"><img src="smart-home.png" alt="Smart Home Setup"><div class="gallery-caption">Client installation setup</div></div>
+            <div class="gallery-item"><img src="smart-home.png" alt="Control Panel"><div class="gallery-caption">Custom control interface</div></div>
+            <div class="gallery-item"><img src="smart-home.png" alt="Hardware"><div class="gallery-caption">ESP32 controller board</div></div>
+          </div>
+          <p style="margin-top: var(--space-md); font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">
+            💡 Replace these with your actual project photos
+          </p>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="video-section">
+          <h2><span class="section-icon">🎬</span> Demo Video</h2>
+          <div class="video-placeholder">
+            <div class="video-placeholder-icon">▶️</div>
+            <p class="video-placeholder-text">Project Demo Video</p>
+            <p class="video-placeholder-hint">Add your video file or embed a YouTube link</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-sidebar">
+        <div class="sidebar-card">
+          <h3>Project Info</h3>
+          <div class="sidebar-item"><span class="sidebar-label">Status</span><span class="sidebar-value" style="color: var(--color-accent);">Active</span></div>
+          <div class="sidebar-item"><span class="sidebar-label">Type</span><span class="sidebar-value">Freelance</span></div>
+          <div class="sidebar-item"><span class="sidebar-label">Role</span><span class="sidebar-value">Full-Stack IoT</span></div>
+          <div class="sidebar-item"><span class="sidebar-label">Clients</span><span class="sidebar-value">Multiple</span></div>
+        </div>
+        <div class="sidebar-card">
+          <h3>Tech Stack</h3>
+          <div class="sidebar-tech-list">
+            <span class="sidebar-tech">ESP32</span>
+            <span class="sidebar-tech">IoT</span>
+            <span class="sidebar-tech">Cloud</span>
+            <span class="sidebar-tech">MQTT</span>
+            <span class="sidebar-tech">Automation</span>
+            <span class="sidebar-tech">Firmware</span>
+            <span class="sidebar-tech">Relay Modules</span>
+            <span class="sidebar-tech">BLE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo"><span class="logo-bracket">&lt;</span>Ramachandru<span class="logo-bracket">/&gt;</span></div>
+      <p class="footer-text">Designed & Built by Ramachandru J</p>
+      <p class="footer-copyright">© 2026 All Rights Reserved</p>
+    </div>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>

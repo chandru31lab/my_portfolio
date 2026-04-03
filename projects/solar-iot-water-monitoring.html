@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Solar-Powered IoT Water Monitoring System with Leakage Detection — Patented project by Ramachandru J">
+  <title>Solar-Powered IoT Water Monitoring | Ramachandru J</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../project-detail.css">
+</head>
+<body>
+  <canvas id="circuit-canvas"></canvas>
+
+  <!-- Navigation -->
+  <nav id="main-nav" class="navbar scrolled">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Ramachandru<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="../index.html#projects" class="nav-link">← All Projects</a></li>
+        <li><a href="../index.html#contact" class="nav-link nav-link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Project Hero -->
+  <section class="project-detail-hero">
+    <div class="project-hero-bg">
+      <img src="solar-iot.png" alt="Solar IoT Water Monitoring">
+    </div>
+    <div class="project-hero-overlay"></div>
+    <div class="project-hero-content">
+      <a href="../index.html#projects" class="back-btn">
+        <span class="back-arrow">←</span> Back to Projects
+      </a>
+      <div class="project-detail-badges">
+        <span class="detail-badge detail-badge--patent">🏆 Patented</span>
+        <span class="detail-badge detail-badge--status">● IoT / Embedded</span>
+        <span class="detail-badge detail-badge--category">Patent: 202541053703 A</span>
+      </div>
+      <h1 class="project-detail-title">Solar-Powered IoT Water<br>Monitoring System</h1>
+      <p class="project-detail-subtitle">
+        A comprehensive water level monitoring and control system with leakage detection and IoT integration, 
+        powered entirely by solar energy with ESP-NOW wireless protocol for ultra-low-power communication.
+      </p>
+    </div>
+  </section>
+
+  <!-- Project Body -->
+  <div class="project-detail-body">
+    <div class="project-detail-grid">
+      <!-- Main Content -->
+      <div class="project-main">
+        <!-- Overview -->
+        <h2><span class="section-icon">📋</span> Project Overview</h2>
+        <p>
+          This patented project addresses the critical need for reliable water level monitoring systems in areas 
+          with limited power infrastructure. By leveraging solar power harvesting and ESP-NOW wireless protocol, 
+          the system achieves continuous monitoring with minimal energy consumption.
+        </p>
+        <p>
+          The system features real-time water level sensing, automatic pump control, leakage detection capabilities, 
+          and a cloud-connected IoT dashboard for remote monitoring. The solar power subsystem ensures 24/7 operation 
+          even in off-grid locations.
+        </p>
+
+        <div class="section-divider"></div>
+
+        <!-- Key Features -->
+        <h2><span class="section-icon">⚡</span> Key Features</h2>
+        <ul>
+          <li><strong>Solar Power Harvesting</strong> — Integrated solar panel with charge controller and lithium battery backup for uninterrupted operation</li>
+          <li><strong>ESP-NOW Protocol</strong> — Ultra-low latency, low-power peer-to-peer wireless communication between sensor nodes</li>
+          <li><strong>Water Level Sensing</strong> — Multi-point ultrasonic and capacitive sensors for accurate level measurement</li>
+          <li><strong>Leakage Detection</strong> — Flow sensors and anomaly detection algorithms to identify pipeline leaks</li>
+          <li><strong>Automatic Pump Control</strong> — Relay-based pump switching with configurable thresholds</li>
+          <li><strong>IoT Dashboard</strong> — Real-time data visualization with historical trends and alerts</li>
+          <li><strong>Mobile Notifications</strong> — Push alerts for critical events like overflow, leak detection, or low battery</li>
+        </ul>
+
+        <div class="section-divider"></div>
+
+        <!-- System Architecture -->
+        <h2><span class="section-icon">🔧</span> System Architecture</h2>
+        <div class="architecture-diagram">
+          <div class="arch-flow">
+            <div class="arch-node">
+              <div class="arch-node-icon">☀️</div>
+              <div class="arch-node-label">Solar Panel</div>
+            </div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node">
+              <div class="arch-node-icon">🔋</div>
+              <div class="arch-node-label">Power Mgmt</div>
+            </div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node">
+              <div class="arch-node-icon">📡</div>
+              <div class="arch-node-label">ESP32 Node</div>
+            </div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node">
+              <div class="arch-node-icon">🌊</div>
+              <div class="arch-node-label">Sensors</div>
+            </div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node">
+              <div class="arch-node-icon">☁️</div>
+              <div class="arch-node-label">Cloud/IoT</div>
+            </div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node">
+              <div class="arch-node-icon">📱</div>
+              <div class="arch-node-label">Dashboard</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <!-- Gallery -->
+        <div class="project-gallery">
+          <h2><span class="section-icon">📸</span> Project Gallery</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="solar-iot.png" alt="Solar IoT Main Board">
+              <div class="gallery-caption">Main controller board with ESP32</div>
+            </div>
+            <div class="gallery-item">
+              <img src="solar-iot.png" alt="Sensor Setup">
+              <div class="gallery-caption">Sensor array and solar panel</div>
+            </div>
+            <div class="gallery-item">
+              <img src="solar-iot.png" alt="PCB Design">
+              <div class="gallery-caption">Custom PCB design</div>
+            </div>
+          </div>
+          <p style="margin-top: var(--space-md); font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">
+            💡 Replace these placeholder images with your actual project photos in the <code>projects/</code> folder
+          </p>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <!-- Video -->
+        <div class="video-section">
+          <h2><span class="section-icon">🎬</span> Demo Video</h2>
+          <div class="video-placeholder">
+            <div class="video-placeholder-icon">▶️</div>
+            <p class="video-placeholder-text">Project Demo Video</p>
+            <p class="video-placeholder-hint">Add your video file here or embed a YouTube link</p>
+            <!-- To add a video, replace this div with:
+            <video controls width="100%" style="border-radius: 12px;">
+              <source src="your-video.mp4" type="video/mp4">
+            </video>
+            Or for YouTube:
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen style="border-radius: 12px;"></iframe>
+            -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="project-sidebar">
+        <div class="sidebar-card">
+          <h3>Project Info</h3>
+          <div class="sidebar-item">
+            <span class="sidebar-label">Status</span>
+            <span class="sidebar-value" style="color: var(--solder-color);">Patented</span>
+          </div>
+          <div class="sidebar-item">
+            <span class="sidebar-label">Patent No.</span>
+            <span class="sidebar-value">202541053703 A</span>
+          </div>
+          <div class="sidebar-item">
+            <span class="sidebar-label">Date</span>
+            <span class="sidebar-value">June 2025</span>
+          </div>
+          <div class="sidebar-item">
+            <span class="sidebar-label">Role</span>
+            <span class="sidebar-value">Lead Developer</span>
+          </div>
+          <div class="sidebar-item">
+            <span class="sidebar-label">Category</span>
+            <span class="sidebar-value">IoT / Embedded</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h3>Tech Stack</h3>
+          <div class="sidebar-tech-list">
+            <span class="sidebar-tech">ESP32</span>
+            <span class="sidebar-tech">ESP-NOW</span>
+            <span class="sidebar-tech">Solar</span>
+            <span class="sidebar-tech">IoT</span>
+            <span class="sidebar-tech">PCB Design</span>
+            <span class="sidebar-tech">C/C++</span>
+            <span class="sidebar-tech">MQTT</span>
+            <span class="sidebar-tech">Ultrasonic Sensors</span>
+            <span class="sidebar-tech">Relay Module</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <span class="logo-bracket">&lt;</span>Ramachandru<span class="logo-bracket">/&gt;</span>
+      </div>
+      <p class="footer-text">Designed & Built by Ramachandru J</p>
+      <p class="footer-copyright">© 2026 All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

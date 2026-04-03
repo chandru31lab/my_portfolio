@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Automated Lighting System — Custom PCB Design by Ramachandru J">
+  <title>Automated Lighting System | Ramachandru J</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../project-detail.css">
+</head>
+<body>
+  <canvas id="circuit-canvas"></canvas>
+  <nav id="main-nav" class="navbar scrolled">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo"><span class="logo-bracket">&lt;</span>Ramachandru<span class="logo-bracket">/&gt;</span></a>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="../index.html#projects" class="nav-link">← All Projects</a></li>
+        <li><a href="../index.html#contact" class="nav-link nav-link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="project-detail-hero">
+    <div class="project-hero-bg"><img src="lighting-system.png" alt="Automated Lighting System"></div>
+    <div class="project-hero-overlay"></div>
+    <div class="project-hero-content">
+      <a href="../index.html#projects" class="back-btn"><span class="back-arrow">←</span> Back to Projects</a>
+      <div class="project-detail-badges">
+        <span class="detail-badge detail-badge--status">● Completed</span>
+        <span class="detail-badge detail-badge--category">Hardware Design</span>
+      </div>
+      <h1 class="project-detail-title">Automated Lighting System</h1>
+      <p class="project-detail-subtitle">
+        Designed a custom PCB using LM358-based relay switching circuitry for intelligent automated lighting control 
+        with ambient light sensing, manual override, and energy-efficient operation.
+      </p>
+    </div>
+  </section>
+
+  <div class="project-detail-body">
+    <div class="project-detail-grid">
+      <div class="project-main">
+        <h2><span class="section-icon">📋</span> Project Overview</h2>
+        <p>
+          This project involved designing and manufacturing a custom PCB for automated lighting control. 
+          The system uses an LM358 op-amp as a comparator to detect ambient light levels and automatically 
+          switches lights on/off via relay modules. The design prioritizes energy efficiency and reliability.
+        </p>
+
+        <div class="section-divider"></div>
+
+        <h2><span class="section-icon">⚡</span> Key Features</h2>
+        <ul>
+          <li><strong>Custom PCB Design</strong> — Designed from scratch using KiCad with proper grounding and trace routing</li>
+          <li><strong>LM358 Comparator Circuit</strong> — Precision ambient light detection using LDR + op-amp configuration</li>
+          <li><strong>Relay Switching</strong> — High-current relay module for safe switching of AC/DC loads</li>
+          <li><strong>Manual Override</strong> — Physical switch for manual control when automation isn't desired</li>
+          <li><strong>Energy Efficient</strong> — Low quiescent current draw in standby mode</li>
+          <li><strong>Status LEDs</strong> — Visual indicators for system state and relay status</li>
+        </ul>
+
+        <div class="section-divider"></div>
+
+        <h2><span class="section-icon">🔧</span> Circuit Flow</h2>
+        <div class="architecture-diagram">
+          <div class="arch-flow">
+            <div class="arch-node"><div class="arch-node-icon">💡</div><div class="arch-node-label">LDR Sensor</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">📊</div><div class="arch-node-label">LM358 Comp</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">🔌</div><div class="arch-node-label">Relay Driver</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">💡</div><div class="arch-node-label">Light Output</div></div>
+          </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="project-gallery">
+          <h2><span class="section-icon">📸</span> Project Gallery</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item"><img src="lighting-system.png" alt="PCB Board"><div class="gallery-caption">Custom PCB board layout</div></div>
+            <div class="gallery-item"><img src="lighting-system.png" alt="Schematic"><div class="gallery-caption">Circuit schematic design</div></div>
+          </div>
+          <p style="margin-top: var(--space-md); font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">
+            💡 Replace these with your actual project photos
+          </p>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="video-section">
+          <h2><span class="section-icon">🎬</span> Demo Video</h2>
+          <div class="video-placeholder">
+            <div class="video-placeholder-icon">▶️</div>
+            <p class="video-placeholder-text">Project Demo Video</p>
+            <p class="video-placeholder-hint">Add your video file or embed a YouTube link</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-sidebar">
+        <div class="sidebar-card">
+          <h3>Project Info</h3>
+          <div class="sidebar-item"><span class="sidebar-label">Status</span><span class="sidebar-value" style="color: var(--color-primary);">Completed</span></div>
+          <div class="sidebar-item"><span class="sidebar-label">Type</span><span class="sidebar-value">Hardware Design</span></div>
+          <div class="sidebar-item"><span class="sidebar-label">Role</span><span class="sidebar-value">PCB Designer</span></div>
+        </div>
+        <div class="sidebar-card">
+          <h3>Tech Stack</h3>
+          <div class="sidebar-tech-list">
+            <span class="sidebar-tech">LM358</span>
+            <span class="sidebar-tech">PCB Design</span>
+            <span class="sidebar-tech">Relay Control</span>
+            <span class="sidebar-tech">KiCad</span>
+            <span class="sidebar-tech">Sensors</span>
+            <span class="sidebar-tech">Soldering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo"><span class="logo-bracket">&lt;</span>Ramachandru<span class="logo-bracket">/&gt;</span></div>
+      <p class="footer-text">Designed & Built by Ramachandru J</p>
+      <p class="footer-copyright">© 2026 All Rights Reserved</p>
+    </div>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>

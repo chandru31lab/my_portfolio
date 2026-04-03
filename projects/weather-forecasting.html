@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Deep Learning Weather Forecasting — Springer Publication by Ramachandru J">
+  <title>Deep Learning Weather Forecasting | Ramachandru J</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../project-detail.css">
+</head>
+<body>
+  <canvas id="circuit-canvas"></canvas>
+  <nav id="main-nav" class="navbar scrolled">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo"><span class="logo-bracket">&lt;</span>Ramachandru<span class="logo-bracket">/&gt;</span></a>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="../index.html#projects" class="nav-link">← All Projects</a></li>
+        <li><a href="../index.html#contact" class="nav-link nav-link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="project-detail-hero">
+    <div class="project-hero-overlay" style="background: linear-gradient(135deg, rgba(10,14,23,0.97) 0%, rgba(15,30,45,0.9) 50%, rgba(10,14,23,0.95) 100%);"></div>
+    <div class="project-hero-content">
+      <a href="../index.html#projects" class="back-btn"><span class="back-arrow">←</span> Back to Projects</a>
+      <div class="project-detail-badges">
+        <span class="detail-badge detail-badge--status">● Published</span>
+        <span class="detail-badge detail-badge--category">Springer</span>
+        <span class="detail-badge detail-badge--patent">🎓 Research</span>
+      </div>
+      <h1 class="project-detail-title">Deep Learning for<br>Weather Forecasting</h1>
+      <p class="project-detail-subtitle">
+        Research on applying deep learning architectures for improved weather prediction accuracy, 
+        published in Springer. Demonstrates novel neural network approaches for meteorological data analysis.
+      </p>
+    </div>
+  </section>
+
+  <div class="project-detail-body">
+    <div class="project-detail-grid">
+      <div class="project-main">
+        <h2><span class="section-icon">📋</span> Research Overview</h2>
+        <p>
+          This research explores the application of deep learning techniques to weather forecasting, 
+          addressing the limitations of traditional statistical and numerical weather prediction models. 
+          By leveraging neural network architectures, the proposed approach captures complex non-linear 
+          patterns in meteorological data for improved prediction accuracy.
+        </p>
+        <p>
+          The paper presents a comparative analysis of different deep learning models including LSTM, 
+          CNN, and hybrid architectures, demonstrating their effectiveness in predicting temperature, 
+          precipitation, and other weather parameters. Published in Springer.
+        </p>
+
+        <div class="section-divider"></div>
+
+        <h2><span class="section-icon">⚡</span> Key Contributions</h2>
+        <ul>
+          <li><strong>Novel DL Architecture</strong> — Custom neural network topology designed for time-series meteorological data</li>
+          <li><strong>Multi-Parameter Prediction</strong> — Simultaneous forecasting of temperature, humidity, wind speed, and precipitation</li>
+          <li><strong>LSTM Networks</strong> — Long Short-Term Memory networks for capturing temporal dependencies in weather patterns</li>
+          <li><strong>Data Preprocessing</strong> — Advanced normalization and augmentation techniques for weather data</li>
+          <li><strong>Benchmark Comparison</strong> — Performance evaluation against traditional forecasting methods</li>
+          <li><strong>Accuracy Improvements</strong> — Demonstrated significant RMSE reduction over baseline models</li>
+        </ul>
+
+        <div class="section-divider"></div>
+
+        <h2><span class="section-icon">🔧</span> Model Pipeline</h2>
+        <div class="architecture-diagram">
+          <div class="arch-flow">
+            <div class="arch-node"><div class="arch-node-icon">🌤️</div><div class="arch-node-label">Weather Data</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">🧹</div><div class="arch-node-label">Preprocessing</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">🧠</div><div class="arch-node-label">LSTM / CNN</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">📊</div><div class="arch-node-label">Prediction</div></div>
+            <span class="arch-arrow">→</span>
+            <div class="arch-node"><div class="arch-node-icon">✅</div><div class="arch-node-label">Evaluation</div></div>
+          </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="project-gallery">
+          <h2><span class="section-icon">📸</span> Results & Figures</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item" style="background: var(--bg-card); display: flex; align-items: center; justify-content: center;">
+              <div class="gallery-caption" style="position: static; background: none; text-align: center; padding: var(--space-xl);">📈 Add training loss curves and prediction plots here</div>
+            </div>
+            <div class="gallery-item" style="background: var(--bg-card); display: flex; align-items: center; justify-content: center;">
+              <div class="gallery-caption" style="position: static; background: none; text-align: center; padding: var(--space-xl);">📊 Add model comparison charts here</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-sidebar">
+        <div class="sidebar-card">
+          <h3>Publication Info</h3>
+          <div class="sidebar-item"><span class="sidebar-label">Status</span><span class="sidebar-value" style="color: var(--color-primary);">Published</span></div>
+          <div class="sidebar-item"><span class="sidebar-label">Publisher</span><span class="sidebar-value">Springer</span></div>
+          <div class="sidebar-item"><span class="sidebar-label">Date</span><span class="sidebar-value">January 2025</span></div>
+          <div class="sidebar-item"><span class="sidebar-label">Type</span><span class="sidebar-value">Research Paper</span></div>
+        </div>
+        <div class="sidebar-card">
+          <h3>Tech Stack</h3>
+          <div class="sidebar-tech-list">
+            <span class="sidebar-tech">Deep Learning</span>
+            <span class="sidebar-tech">Python</span>
+            <span class="sidebar-tech">TensorFlow</span>
+            <span class="sidebar-tech">LSTM</span>
+            <span class="sidebar-tech">CNN</span>
+            <span class="sidebar-tech">Keras</span>
+            <span class="sidebar-tech">NumPy</span>
+            <span class="sidebar-tech">Matplotlib</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo"><span class="logo-bracket">&lt;</span>Ramachandru<span class="logo-bracket">/&gt;</span></div>
+      <p class="footer-text">Designed & Built by Ramachandru J</p>
+      <p class="footer-copyright">© 2026 All Rights Reserved</p>
+    </div>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>
